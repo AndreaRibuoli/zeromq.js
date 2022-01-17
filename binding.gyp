@@ -164,9 +164,9 @@
             'NAPI_DISABLE_CPP_EXCEPTIONS',
           ],
           'conditions': [
-            ['OS == "os400" or OS == "aLx"', {
-              'cflags': [
-                '-std=c++23',
+            ['OS == "aix"', {
+              'cppflags': [
+                '-std=c++17',
               ],
               'include_dirs': [
                 '/QOpenSys/pkgs/include',
