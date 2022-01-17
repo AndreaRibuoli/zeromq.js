@@ -165,8 +165,8 @@
           ],
           'conditions': [
             ['OS == "aix"', {
-              'cppflags': [
-                '-std=c++17',
+              'cflags_cc': [
+                "-std=c++17"
               ],
               'include_dirs': [
                 '/QOpenSys/pkgs/include',
