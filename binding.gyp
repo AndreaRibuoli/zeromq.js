@@ -164,7 +164,7 @@
             'NAPI_DISABLE_CPP_EXCEPTIONS',
           ],
           'conditions': [
-            [OS == "os400" or OS == "linux" or OS == "freebsd" or OS == "openbsd" or OS == "solaris"', {
+            ['OS == "os400" or OS == "linux" or OS == "freebsd" or OS == "openbsd" or OS == "solaris"', {
               'cflags_cc!': [
                 '-std=c++17',
                 '-flto',
