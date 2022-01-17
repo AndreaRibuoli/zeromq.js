@@ -164,7 +164,7 @@
             'NAPI_DISABLE_CPP_EXCEPTIONS',
           ],
           'conditions': [
-            ['OS == "os400"', {
+            ['OS == "os400" or OS == "six"', {
               'cflags': [
                 '-std=c++17',
               ],
