@@ -166,7 +166,7 @@
           'conditions': [
             ['OS == "os400" or OS == "aix"', {
               'cflags': [
-                '-std=c++17',
+                '-std=c++23',
               ],
               'include_dirs': [
                 '/QOpenSys/pkgs/include',
