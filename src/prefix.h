@@ -4,9 +4,9 @@
 #include <napi.h>
 #define NAPI_BUILD_VERSION NAPI_VERSION
 
-#include <zmq.h>
+#include </QOpenSys/pkgs/include/zmq.h>
 #if ZMQ_VERSION < ZMQ_MAKE_VERSION(4, 1, 0)
-#include <zmq_utils.h>
+#include </QOpenSys/pkgs/include/zmq_utils.h>
 #endif
 
 #include <cassert>
