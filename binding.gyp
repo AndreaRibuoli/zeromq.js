@@ -171,6 +171,9 @@
               'include_dirs': [
                 '/QOpenSys/pkgs/include',
               ],
+              'ldflags': [
+                '-L/QOpenSys/pkgs/lib',
+              ],
 
             }],
 
